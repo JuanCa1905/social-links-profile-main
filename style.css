@@ -1,0 +1,71 @@
+:root{
+    --Fondo-de-color: #141414;
+    --Fondo-de-recuadro: #1f1f1f;
+    --Fondo-de-botones: #333333;
+    --Titulo-Jessica: #ebebeb;
+    --Titulo-subittulo: #839b3b;
+    --Parrafo: #a5a5a5;
+
+}
+
+html{
+    background-color: var(--Fondo-de-color);
+}
+body{
+    
+    font-family: Arial, sans-serif;
+    background-color: var(--Fondo-de-recuadro);
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+    align-items: center;
+    text-align: center; 
+    margin: auto;
+    margin-top: 15rem;
+    justify-content: center;
+    
+          
+
+}
+
+.Nombreusuario{
+    color: var(--Titulo-Jessica);
+    margin-bottom: 1rem;
+    
+}
+.subtitulo{
+    color: var(--Titulo-subittulo);
+    margin-bottom: 40px;
+}
+.parrafos{
+    color: var(--Parrafo);
+    margin-bottom: 20px;
+}
+
+.color-boton{
+    background-color: var(--Fondo-de-botones);
+    color: var(--Titulo-Jessica);
+    
+}
+.separador{
+    margin-bottom: 10px;
+}
+.imagen{
+    border-radius: 5em;
+    margin: 0 auto 20px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1%;
+}
+
+.button {
+    background-color: var(--Fondo-de-botones);
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
